@@ -1,0 +1,17 @@
+{
+  "name": "homework_10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CustomHashTable.js",
+  "type": "module",
+  "scripts": {
+    "example": "node src/example.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
