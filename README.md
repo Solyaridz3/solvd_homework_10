@@ -23,6 +23,16 @@ CustomHashTable is a custom implementation of a hash table in JavaScript. It uti
 
 -   There is a loading factor provided which helps us to determine if we have more key-value pairs than 3/4 of table length, than we double our table size, generating new hash value for each key-value pair in table
 
+## Analysis and trade-offs
+
+- Probably with a better hash function we would not have to change hash for each key-value pair while resizing hash-table.
+
+- Insertion: O(1) on average, 𝑂(𝑛) O(n) in the worst case due to resizing.
+
+- Retrieval: O(1) on average, 𝑂(𝑚) O(m) in the worst case - for searching an element in a Linked List at a hashed index
+
+- Deletion: O(1) on average, O(m) in the worst case - for removing an element from a linked list at the hashed index.
+
 ### Example
 
 ```javascript
